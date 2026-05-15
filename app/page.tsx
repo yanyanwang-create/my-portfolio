@@ -1,10 +1,29 @@
 export default function Home() {
-  return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
-      <h1 className="text-4xl font-bold mb-4">yanyan wang</h1>
-      <p className="text-xl text-gray-600 mb-2">Computer Science Student</p>
-      <p className="text-lg text-gray-500 mb-6">Building web apps with Next.js & React</p>
-      <a href="/about" className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">Learn More About Me</a>
-    </main>
-  );
+  return (
+    <main className="p-8 max-w-4xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4">My Portfolio</h1>
+      <p className="mb-2">Hi, I'm Yanyan Wang 👋</p>
+      <p className="mb-8">Computer Science Student | Frontend Developer</p>
+
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-2">About Me</h2>
+        <p>I'm passionate about building web applications with Next.js. This portfolio is my first project deployed on Vercel.</p>
+      </section>
+
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-2">My Projects</h2>
+        <div className="border p-4 rounded">
+          <h3 className="font-medium">Portfolio Website</h3>
+          <p className="text-sm text-gray-600">A simple personal portfolio built with Next.js and deployed to Vercel.</p>
+        </div>
+      </section>
+
+
+      <footer className="text-sm text-gray-500">
+        © 2026 Yanyan Wang | Contact: ywang172@example.com
+      </footer>
+    </main>
+  );
 }
